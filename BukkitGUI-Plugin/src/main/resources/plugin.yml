@@ -1,0 +1,8 @@
+name: BukkitGUI
+version: ${version}
+api-version: '1.20'
+main: de.kuchengames.bukkit.gui.plugin.BukkitGUIPlugin
+authors:
+  - LuciferMorningstarDev
+website: https://kuchengames.de
+load: POSTWORLD

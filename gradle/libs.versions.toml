@@ -1,0 +1,18 @@
+[versions]
+
+# Gradle plugins
+shadow = "7.1.2"
+grgit = "4.1.1"
+licenser = "0.6.1"
+
+# minecraft
+paper = "1.19.4-R0.1-SNAPSHOT"
+
+[plugins]
+# Gradle plugins
+shadow = { id = "com.github.johnrengelman.shadow", version.ref = "shadow" }
+grgit = { id = "org.ajoberstar.grgit", version.ref = "grgit" }
+licenser = { id = "org.cadixdev.licenser", version.ref = "licenser" }
+
+[libraries]
+paper = { group = "io.papermc.paper", name = "paper-api", version.ref = "paper" }
